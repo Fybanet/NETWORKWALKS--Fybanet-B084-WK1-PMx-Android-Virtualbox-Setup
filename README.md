@@ -107,7 +107,7 @@ The static IP configuration was performed using the Android network settings.
 
 <sub>Screenshot: Android static IP configuration</sub>
 
-![Android Static IP Configuration](images/android-static-ip.png)
+![Android Static IP Configuration](https://github.com/Fybanet/NETWORKWALKS--Fybanet-B084-WK1-PMx-Android-Virtualbox-Setup/blob/main/Android%20static%20ip.png)
 
 ### 6. Test Internet Connectivity
 
@@ -121,7 +121,7 @@ This test was performed to verify whether the Android virtual machine could reac
 
 <sub>Screenshot: Android internet connectivity test</sub>
 
-![Android Internet Connectivity Test](images/android-ping-8.8.8.8.png)
+![Android Internet Connectivity Test](https://github.com/Fybanet/NETWORKWALKS--Fybanet-B084-WK1-PMx-Android-Virtualbox-Setup/blob/main/Android%208.8.8.8%20ping.png)
 
 ### 7. Test Connectivity Between Android and Kali Linux
 
@@ -142,18 +142,18 @@ This was used to verify connectivity from Android to Kali Linux.
 From the Kali Linux terminal, I pinged the static IP address configured on Android:
 
 ```bash
-ping <ANDROID_STATIC_IP>
+ping 10.0.0.9
 ```
 
 Successful replies confirmed that the two virtual machines could communicate over the configured virtual network.
 
 <sub>Screenshot: Android-to-Kali connectivity test</sub>
 
-![Android to Kali Connectivity](images/android-to-kali-ping.png)
+![Android to Kali Connectivity](https://github.com/Fybanet/NETWORKWALKS--Fybanet-B084-WK1-PMx-Android-Virtualbox-Setup/blob/main/Android%20kali%20ping.png)
 
 <sub>Screenshot: Kali-to-Android connectivity test</sub>
 
-![Kali to Android Connectivity](images/kali-to-android-ping.png)
+![Kali to Android Connectivity](https://github.com/Fybanet/NETWORKWALKS--Fybanet-B084-WK1-PMx-Android-Virtualbox-Setup/blob/main/Kali%20aandroid%20ping.png)
 
 ## 📊 Results & Observations
 
